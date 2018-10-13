@@ -35,6 +35,10 @@ header{
     color: #00D9B7;
     font-weight: 900;
 }
+.hedder-navi p:hover{
+    color: #00D9B7;
+    cursor: pointer;
+}
 .hedder-navi ul{
     display: flex;
     list-style-type: none;
@@ -45,6 +49,10 @@ header{
 .hedder-navi ul li:last-child{
     margin-left: 45px;
     margin-right: 10px;
+}
+.hedder-navi ul li:hover{
+    color: #00D9B7;
+    cursor: pointer;
 }
 /*HEDEAR MAINCONTAINER////////////////////////*/
 
@@ -131,6 +139,7 @@ header{
     height: 350px;
     padding-top: 25px;
     display: flex;
+
 }
 .left-photo{
     display: flex;
@@ -223,4 +232,84 @@ header{
     padding: 0;
     margin: 0;
 }
+/*////////////////////////////SECTION 2////////////////////////*/
+.section-Two{
+    width: 100%;
+    height: 725px;
+    background-color: #F1F1F1;
+}
+.price{
+    height: 100px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-top: 40px;
+    font-size: 20px;
+}
+.price p{
+    text-transform: uppercase;
+}
+.price .photo-strip{
+    margin-top: 9px;
+    width: 315px;
+}
+.section-Two-main{
+    display: flex;
+}
+.section-Two-BOX-ONE{
+    display: flex;
+    width: 31%;
+    height: 500px;
+    border: 2px solid #C2C2C2;
+    margin-top: 58px;
+    margin-right: 17px;
+}
+.section-Two-BOX-TWO{
+    display: flex;
+    width: 31%;
+    height: 500px;
+    background-color: #22B89F;
+    margin-top: 58px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.section-Two-BOX-TWO .outside-circle{
+    border: 2px solid #22B89F;
+    background-color: #22B89F;
+}
+.section-Two-BOX-TWO .inside-circle{
+    background-color: #F1F1F1;
+}
 
+.section-Two-BOX-THREE{
+    display: flex;
+    width: 31%;
+    height: 500px;
+    border: 2px solid #C2C2C2;
+    margin-top: 58px;
+    margin-left: 17px;
+    margin-right: 0;
+}
+.circle-setup{
+    width: 100%;
+    position: relative;
+}
+.outside-circle{
+    position: relative;
+    top: -39px;
+    left: calc(50% - 29px);
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    border: 2px solid #C2C2C2;
+    background-color: #F1F1F1;
+}
+.inside-circle{
+    position: relative;
+    top: 13px;
+    left: 13px;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    background-color: #C2C2C2;
+}
