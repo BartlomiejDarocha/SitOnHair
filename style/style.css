@@ -32,11 +32,11 @@ header{
     text-transform: uppercase;
 }
 .hedder-navi span{
-    color: #00D9B7;
+    color: #22B89F;
     font-weight: 900;
 }
 .hedder-navi p:hover{
-    color: #00D9B7;
+    color: #22B89F;
     cursor: pointer;
 }
 .hedder-navi ul{
@@ -51,7 +51,7 @@ header{
     margin-right: 10px;
 }
 .hedder-navi ul li:hover{
-    color: #00D9B7;
+    color: #22B89F;
     cursor: pointer;
 }
 /*HEDEAR MAINCONTAINER////////////////////////*/
@@ -71,7 +71,7 @@ header{
 }
 .Arrows{
     width: 5%;
-    color: #00C3A0;
+    color: #22B89F;
     font-size: 75px;
     display: flex;
     align-items: center;
@@ -119,7 +119,7 @@ header{
 }
 .hedder-right button{
     display: block;
-    background-color:#00C3A0;
+    background-color:#22B89F;
     width: 265px;
     height: 52px;
     margin: 0 80px;
@@ -226,7 +226,7 @@ header{
 
 .photo-strip{
     display: block;
-    background-color: #00C3A0;
+    background-color: #22B89F;
     width: 138px;
     height: 7px;
     padding: 0;
@@ -256,26 +256,61 @@ header{
 .section-Two-main{
     display: flex;
 }
+/*////////////////////BOX 1////////////////*/
 .section-Two-BOX-ONE{
     display: flex;
     flex-direction: column;
     width: 31%;
     height: 500px;
     border: 2px solid #C2C2C2;
+    background-color: #fff;
     margin-top: 58px;
     margin-right: 17px;
 }
-
+.button-Box-One{
+    font-weight: 700;
+    background-color: #22B89F;
+    color: #fff
+}
+.st-box-title-Box1{
+    color: #22B89F;
+}
+/*   ///////////////////////BOX 2////////////////////*/
 .section-Two-BOX-TWO{
     display: flex;
     width: 31%;
     flex-direction: column;
     height: 500px;
+    border: 2px solid #22B89F;
     background-color: #22B89F;
     margin-top: 58px;
     margin-left: 16px;
     margin-right: 16px;
 }
+.button-Box-Two{
+    font-weight: 700;
+    background-color: #fff;
+    color: #00D9B7
+}
+#circle-Box-Two{
+    background-color: #fff;
+    color: #00D9B7;
+    border: 2px solid #22B89F;
+}
+.st-box-title-Box2{
+    color: #fff;
+}
+.section-Two-BOX-TWO .st-box-list li:nth-of-type(1){
+    background-color: #fff;
+}
+.section-Two-BOX-TWO .st-box-list li:nth-of-type(2){
+    background-color: #ebeaea;
+}
+.section-Two-BOX-TWO .st-box-list li:nth-of-type(3){
+    background-color: #fff;
+}
+
+
 .section-Two-BOX-TWO .outside-circle{
     border: 2px solid #22B89F;
     background-color: #22B89F;
@@ -283,16 +318,25 @@ header{
 .section-Two-BOX-TWO .inside-circle{
     background-color: #F1F1F1;
 }
-
+/*////////////////////////BOX 3 ////////////////////////*/
 .section-Two-BOX-THREE{
     display: flex;
     width: 31%;
     height: 500px;
     flex-direction: column;
     border: 2px solid #C2C2C2;
+    background-color: #fff;
     margin-top: 58px;
     margin-left: 17px;
     margin-right: 0;
+}
+.button-Box-Three{
+    background-color: #22B89F;
+    color: #fff;
+    font-weight: 700;
+}
+.st-box-title-Box3{
+    color: #22B89F;
 }
 .section-Two-BOX-THREE .st-box-contetn-citcle p:nth-of-type(1){
     font-size: 45px;
@@ -300,11 +344,17 @@ header{
     margin: 22px 1px 1px -4px;
 
 }
+.section-Two-BOX-THREE .st-box-list li:nth-of-type(1){
+    background-color: #cfcece;
+}
+.section-Two-BOX-THREE .st-box-list li:nth-of-type(2){
+    background-color: #ebeaea;
+}
 .section-Two-BOX-THREE .st-box-list li:nth-of-type(3){
-    background-color: #E4E4E4;
+    background-color: #cfcece;
 }
 .section-Two-BOX-THREE .st-box-list li:nth-of-type(4){
-    background-color: #edeaea;
+    background-color: #ebeaea;
 }
 
 
@@ -321,7 +371,7 @@ header{
     width: 55px;
     border-radius: 50%;
     border: 2px solid #C2C2C2;
-    background-color: #F1F1F1;
+    background-color: #fff; 
 }
 .inside-circle{
     position: relative;
@@ -336,7 +386,6 @@ header{
     width: 100%;
     margin-top: 2px;
     height: 50px;
-    color: #22B89F;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -403,11 +452,12 @@ header{
     color: #929292;
 }
 .st-box-list li:nth-of-type(1){
-    background-color: #E4E4E4;
+    background-color: #cfcece;
 }
 .st-box-list li:nth-of-type(2){
-    background-color: #edeaea;
+    background-color: #ebeaea;
 }
+
 .st-box-button{
     font-size: 17px;
     text-transform: uppercase;
@@ -415,10 +465,10 @@ header{
     align-self: center;
     width: 120px;
     height: 35px;
-    color: #FFF;
-    background-color: #27C7AB;
     border-radius: 5px;
     border: none;
     text-align: center;
 }
-
+/*//////////////////SECTION3////////////////////////////
+//////////////////////////////////////////////////////
+////////////////////////////////////////////////////*/
