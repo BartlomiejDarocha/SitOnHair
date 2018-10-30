@@ -542,7 +542,7 @@ header{
     background-color: #fff;
     background-image: url("../images/red_chair.png");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 60%;
     background-position: center;
 }
 
@@ -561,6 +561,7 @@ header{
     width: 48px;
     position: absolute;
     cursor: pointer;
+    margin-top: 30px;
 }
 .section-tree-rightside-checkbox label{
     display: block;
@@ -571,6 +572,7 @@ header{
     padding-right: 20px;
     cursor: pointer;
     color: #C2C2C2;
+    margin-top: 30px;
 }
 .section-tree-rightside-checkbox label::before,.section-tree-rightside-checkbox label::after{
     position: absolute;
@@ -606,13 +608,64 @@ header{
     height: 70px;
     width: 340px;
     text-transform: uppercase;
-    font-size: 40px;
+    font-size: 33px;
+    font-weight: 700;
     border-radius: 10px;
     margin-left: 35px;
     margin-top: 24px;
     color: #FFF;
     border: none;
 }
+/*//////////////////////FOTTER///////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////*/
+footer{
+    display: flex;
+}
 
+.footer-left-side{
+    margin-top: 90px;
+    width: 65%;
+    padding-top: 5px;
+    padding-left: 1px;
+    height: 70px;
+}
+.footer-left-side p{
+    font-weight: 600;
+    color: #C2C2C2;
+    font-size: 16px;
+    letter-spacing: .5px;
+}
+/*/////////////////////////////////////////////////////////////////////*/
+
+.footer-right-side{
+    display: flex;
+    margin-top: 70px;
+    width: 35%;
+    padding-top: 1px;
+    padding-right: 1px;
+    height: 90px;
+}
+.footer-right-side-icons {
+    padding-top: 10px;
+    padding-left: 5px;
+    width: 60%;
+}
+.footer-right-side-rightText{
+
+    padding-top: 22px;
+    width: 40%;
+}
+.footer-right-side-rightText p{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #C2C2C2;
+}
+.footer-right-side-rightText span{
+    font-weight: 700;
+    
+}
 
 
