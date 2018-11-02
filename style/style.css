@@ -166,10 +166,12 @@ header{
 .arrow-left{
     left:115px;
     top:211px;
+    z-index: 2;
 }
 .arrow-right{
     left:1125px;
     top:211px;
+    z-index: 2;
 }
 
 .Arrows.arrow-left span:hover,
@@ -182,20 +184,73 @@ cursor: pointer;
     color: black;
 }
 
-.hedder-main{
-}
-.banner{
-}
 .banner-slides{
     position: relative;
 }
 
 .banner-slide{
-    width: 80%;
+    width: 100%;
     position: absolute;
-    left: 95px;
     display: flex;
+    opacity: 0;
+    z-index: 0;
+    transition: 1s;
 }
+.banner-active-slide{
+    opacity: 1;
+    z-index: 1;
+}
+.left-two{
+    width: 40%;
+    height: 505px;
+    background-image: url("../images/orange_chair.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-x: 63px;
+    background-position-y: center;
+}
+.right-two{
+    width: 60%;
+    height: 505px;
+    padding: 133px 10px 10px 10px;
+    justify-content: center;
+}
+
+.right-two h1{
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-left: 170px;
+    margin-bottom: 45px;
+
+}
+.right-two p{
+    text-indent: 10px;
+    line-height: 1.6;
+    text-align: center;
+    font-size: 14px;
+    margin-right: 90px;
+    margin-left: 65px;
+    margin-bottom: 28px;
+}
+.right-two button{
+    display: block;
+    background-color:#22B89F;
+    width: 265px;
+    height: 52px;
+    margin: 0 170px;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 23px;
+}
+.right-two button:hover{
+    cursor: pointer;
+    color: black;
+}
+
+
+
 
 .hedder-left{
     width: 40%;
@@ -203,8 +258,8 @@ cursor: pointer;
     background-image: url("../images/black_chair.png");
     background-repeat: no-repeat;
     background-size: 140%;
-    background-position-x: -95px;
-    background-position-y: 70px;
+    background-position-x: -44px;
+    background-position-y: 68px;
 }
 .hedder-right{
     width: 50%;
@@ -214,7 +269,7 @@ cursor: pointer;
 .hedder-right h1{
     text-transform: uppercase;
     font-size: 40px;
-    margin-left: 30px;
+    margin-left: 80px;
     margin-bottom: 30px;
 
 }
@@ -227,8 +282,8 @@ cursor: pointer;
     line-height: 1.6;
     text-align: center;
     font-size: 14px;
-    margin-right: 85px;
-    margin-left: 0;
+    margin-right: 25px;
+    margin-left: 37px;
     margin-bottom: 28px;
 }
 .hedder-right button{
@@ -236,7 +291,7 @@ cursor: pointer;
     background-color:#22B89F;
     width: 265px;
     height: 52px;
-    margin: 0 80px;
+    margin: 0 137px;
     border: none;
     border-radius: 10px;
     color: #fff;
